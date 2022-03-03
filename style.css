@@ -1,0 +1,54 @@
+.second_main{
+    background-image: url('images/second_main.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+.main_logo_col{
+    display: flex;
+    justify-content: end;
+}
+
+.main_button_col{
+    display: flex;
+    justify-content: center;
+}
+
+.main_button_col button{
+    background: none;
+    border: none;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 20px;
+    padding: 0 24px;
+}
+
+.desc_main{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc_main h1{
+    color: #fff;
+}
+
+.desc_main h4, .desc_main h4 span{
+    font-weight: 300;
+    color: #fff;
+}
+
+.desc_main h4 span{
+   font-weight: 900;
+}
+
+.desc_main button{
+    background-color: #fff;
+    color: #37597E;
+    font-weight: 600;
+    padding: 4px 65px;
+    border-radius: 23px;
+    border: 2px solid #fff;
+}
